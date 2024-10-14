@@ -23,7 +23,7 @@ body{
 }
 
 .navbar {
-    max-width: 655px;
+    width: 655px;
     height: 64px;
     border-radius: 48px;
     border: var(--strokeweight1);
@@ -31,6 +31,7 @@ body{
     background-color: #0F373C;
     position: absolute;
     left: 393px;
+    margin-top: 20px;
     top: 24px;
     display: flex;
     justify-content: space-around;
@@ -120,7 +121,8 @@ background-color: #B0F9FF;
 color: #0B2A2D;
 }
 .nav_heading2>p{
-    width: 100%;
+width: 500px;
+    
 height: auto;
 position: absolute;
 top: 381px;
@@ -926,6 +928,8 @@ border-radius: 16px ;
             }
             .Container{
                 position: static;
+                width: 90%;
+                padding-left: -300px;
                 
             }
             .LogIn{
