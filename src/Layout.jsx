@@ -17,6 +17,7 @@ import Vector2 from './pictures/vector2.png'
 import vector3 from './pictures/vector3.png' 
 import Frame_ from './pictures/Frame_.png'
 import image from './pictures/image.png'
+import bcgv from './pictures/bcgv.mp4'
 
 
  
@@ -25,7 +26,7 @@ function Layout(){
     return(
         <>
        <nav  className="Container">
-        <img src={a} alt="" />
+        <video src={bcgv} alt="" />
         <div className='navbar flex justify-around items-center'>
             <p><a>Features</a></p>
             <p><a>Why Us</a></p>
